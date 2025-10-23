@@ -52,5 +52,10 @@ cd C:\Users\YourName\Documents\AutoTyper
 ```bash
 pyinstaller --onefile --windowed auto_typer.py
 ```
+**Explanation of options:**
+
+**--onefile** → Packages everything into a single ''**.exe**'' file.
+
+**--windowed** → Hides the console window (good for GUI apps).
 
 
