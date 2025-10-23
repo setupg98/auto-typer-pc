@@ -37,7 +37,7 @@ pip install pynput
 8. Click Start Auto Typing and switch to the target window. Typing begins automatically after 3 seconds.
 
 9. Click Stop Typing to stop anytime.
-
+---
 
 
 
