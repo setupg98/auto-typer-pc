@@ -39,6 +39,9 @@ pip install pynput
 9. Click Stop Typing to stop anytime.
 ---
 
+## Using Without Python (EXE version)
+If you want to use the AutoTyper without installing Python, you can convert the script to a standalone executable using **PyInstaller**.
 
+1. 
 
 
