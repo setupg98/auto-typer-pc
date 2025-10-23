@@ -42,7 +42,7 @@ pip install pynput
 ## Using Without Python (EXE version)
 If you want to use the AutoTyper without installing Python, you can convert the script to a standalone executable using **PyInstaller**.
 
-## Convert Your Script to EXE
+## 1. Convert Your Script to EXE
 1. Open Command Prompt
 2. Navigate to your project folder:
 ```bash
@@ -57,5 +57,30 @@ pyinstaller --onefile --windowed auto_typer.py
 **--onefile** → Packages everything into a single ''**.exe**'' file.
 
 **--windowed** → Hides the console window (good for GUI apps).
+
+---
+## 2. Locate the EXE
+
+After conversion, check the `dist` folder inside your project folder.  
+You will see `auto_typer.exe`.  
+
+---
+
+## 3. Share or Use the EXE
+
+- You can now **share `auto_typer.exe`** with anyone.  
+- They don’t need Python installed.  
+- Double-clicking the EXE will open the GUI.  
+
+---
+
+If you want, I can **merge this into your full GitHub README** with all sections, including:
+
+- Python usage  
+- EXE usage  
+- How to run  
+- Notes & license  
+
+So your README is **complete and ready to upload**.
 
 
